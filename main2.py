@@ -7,13 +7,13 @@ python -m arcade.examples.move_keyboard
 """
 
 import arcade
-
+#sets the width and height of the screen. sets a title for the screen. And sets a movement speed. 
 SCREEN_WIDTH = 640
 SCREEN_HEIGHT = 480
 SCREEN_TITLE = "Move Keyboard Example"
 MOVEMENT_SPEED = 3
 
-
+#init = initialize
 class Ball:
     def __init__(self, position_x, position_y, change_x, change_y, radius, color):
 

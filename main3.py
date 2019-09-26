@@ -61,12 +61,12 @@ class MyGame(arcade.Window):
         self.player.stand_right_textures.append(arcade.load_texture("images/character_sprites/character0.png",
                                                                     scale=character_scale))
         self.player.stand_left_textures = []
-        self.player.stand_left_textures.append(arcade.load_texture("images/character_sprites/character0.png",
+        self.player.stand_left_textures.append(arcade.load_texture("images/character_sprites/character1.png",
                                                                    scale=character_scale, mirrored=True))
 
         self.player.walk_right_textures = []
 
-        self.player.walk_right_textures.append(arcade.load_texture("images/character_sprites/characterw0.png",
+        self.player.walk_right_textures.append(arcade.load_texture("images/character_sprites/character3.png",
                                                                    scale=character_scale))
         self.player.walk_right_textures.append(arcade.load_texture("images/character_sprites/characterw1.png",
                                                                    scale=character_scale))

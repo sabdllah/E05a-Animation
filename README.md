@@ -1,9 +1,8 @@
 # E05a-Animation
 
 We will begin to explore keyboard and mouse control in a Python Arcade program.
+I have uploaded this link [http://arcade.academy/examples/move_mouse.html#move-mouse](http://arcade.academy/examples/move_mouse.html#move-mouse) to main1.py and have added comments to the code based on what i felt i understood and did not understand. There was nothing I did not understand in main1.py. Similarly, I did the same for main2.py. The code was pretty starightforward and understandable.
 
-When you are done, main1.py should contain the code on [http://arcade.academy/examples/move_mouse.html#move-mouse](http://arcade.academy/examples/move_mouse.html#move-mouse). Play with the code until you feel like you understand what is going on. Comment any uncommented line; feel free to ask for help!
 
-main2.py should contain the code on [http://arcade.academy/examples/move_keyboard.html#move-keyboard](http://arcade.academy/examples/move_keyboard.html#move-keyboard). Play with the code until you feel like you understand what is going on. Comment any uncommented line; feel free to ask for help!
-
-For extra credit, you could create a main3.py that contains the code on [http://arcade.academy/examples/sprite_move_animation.html#sprite-move-animation](http://arcade.academy/examples/sprite_move_animation.html#sprite-move-animation). Download sprite assets for the player and coins and figure out how to make your character walk left and right.
+I created a new file and titled it main3.py and in this file with the code from this link 
+[http://arcade.academy/examples/sprite_move_animation.html#sprite-move-animation](http://arcade.academy/examples/sprite_move_animation.html#sprite-move-animation)  I downlaoded sprite assets for the player and coins and from a website. I then placed them in image folders according to the code. I then made sure the chracters could move left and right, up and down and "consume" the coins. The couns are a bit large however it still works in the game. Seeing the code work is very gratifying. 

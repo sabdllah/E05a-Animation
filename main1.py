@@ -39,11 +39,12 @@ class MyGame(arcade.Window):
         # So we just see our object, not the pointer.
         self.set_mouse_visible(False)
 
+        #set the background color to ash grey
         arcade.set_background_color(arcade.color.ASH_GREY)
 
         # Create our ball
         self.ball = Ball(50, 50, 15, arcade.color.AUBURN)
-
+#def is a function
     def on_draw(self):
         """ Called whenever we need to draw the window. """
         arcade.start_render()
@@ -53,7 +54,7 @@ class MyGame(arcade.Window):
         """ Called to update our objects. Happens approximately 60 times per second."""
         self.ball.position_x = x
         self.ball.position_y = y
-
+#occurs when the player presses the mouse button and the color changes to black
     def on_mouse_press(self, x, y, button, modifiers):
         """
         Called when the user presses a mouse button.
@@ -61,7 +62,7 @@ class MyGame(arcade.Window):
         print(f"You clicked button number: {button}")
         if button == arcade.MOUSE_BUTTON_LEFT:
             self.ball.color = arcade.color.BLACK
-
+#occurs when the player releases the mouse button and the color changes to auburn
     def on_mouse_release(self, x, y, button, modifiers):
         """
         Called when a user releases a mouse button.
